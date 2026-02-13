@@ -11,8 +11,8 @@ class FreeCADMCPAddonWorkbench(Workbench):
             "Toggle_Remote_Connections",
             "Configure_Allowed_IPs",
         ]
-        self.appendToolbar("FreeCAD MCP", commands)
-        self.appendMenu("FreeCAD MCP", commands)
+        self.appendToolbar("FreeCAD Bot", commands)
+        self.appendMenu("FreeCAD Bot", commands)
 
     def Activated(self):
         pass
